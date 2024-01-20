@@ -35,7 +35,7 @@ const chainStore = useBlockchain()
       <div class="w-16 rounded-full">
         <img width="200" height="200" x="0" y="0" src="/root/Cosmos-Explorer/public/AnatolianTeam.png" />
       </div>
-      <h1 class="text-primary dark:invert text-3xl md:!text-6xl font-bold">
+      <h1 class="text-primary text-3xl md:!text-6xl font-bold" style="color:#DCA958">
         {{ $t('pages.title') }}
       </h1>
     </div>
