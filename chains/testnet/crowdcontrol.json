@@ -1,0 +1,31 @@
+{
+  "chain_name": "Crowd Control",
+  "api": [
+      {"provider": "Stavr", "address": "https://cc.api.t.stavr.tech/"},    
+      {"provider": "IT Rocket", "address": "https://cardchain-testnet-api.itrocket.net:443"},
+      {"provider": "NodeStake", "address": "https://api-t.crowd.nodestake.top"},
+      {"provider": "NodeJumper", "address": "https://rest.nodejumper.io/cardchaintestnet"}
+      
+  ],
+  "rpc": [
+      {"provider": "Stavr", "address": "http://crowd.rpc.t.stavr.tech:21207/"},
+      {"provider": "Rebus", "address": "https://cardchain-testnet-rpc.itrocket.net:443"}, 
+      {"provider": "NodeStake", "address": "https://rpc-t.crowd.nodestake.top"},
+      {"provider": "NodeJumper", "address": "https://rpc.nodejumper.io:443/cardchaintestnet"}
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.45.6",
+  "coin_type": "118",
+  "min_tx_fee": "5000",
+  "addr_prefix": "cc",
+  "logo": "/logos/cardchain.svg",
+  "assets": [
+    {
+      "base": "ubpf",
+      "symbol": "UBPF",
+      "exponent": "18",
+      "coingecko_id": "crowd-control",
+      "logo": "/logos/cardchain.svg"
+    }
+  ]
+}
