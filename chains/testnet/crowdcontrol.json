@@ -1,17 +1,11 @@
 {
   "chain_name": "Crowd Control",
   "api": [
-      {"provider": "Stavr", "address": "https://cc.api.t.stavr.tech/"},    
-      {"provider": "IT Rocket", "address": "https://cardchain-testnet-api.itrocket.net:443"},
-      {"provider": "NodeStake", "address": "https://api-t.crowd.nodestake.top"},
-      {"provider": "NodeJumper", "address": "https://rest.nodejumper.io/cardchaintestnet"}
+      {"provider": "Anatolian Team", "address": "https://api-t-crowdcontrol.anatolianteam.com"}
       
   ],
   "rpc": [
-      {"provider": "Stavr", "address": "http://crowd.rpc.t.stavr.tech:21207/"},
-      {"provider": "Rebus", "address": "https://cardchain-testnet-rpc.itrocket.net:443"}, 
-      {"provider": "NodeStake", "address": "https://rpc-t.crowd.nodestake.top"},
-      {"provider": "NodeJumper", "address": "https://rpc.nodejumper.io:443/cardchaintestnet"}
+      {"provider": "Anatolian Team", "address": "https://rpc-t-crowdcontrol.anatolianteam.com"}
   ],
   "snapshot_provider": "",
   "sdk_version": "0.45.6",
@@ -22,8 +16,8 @@
   "assets": [
     {
       "base": "ubpf",
-      "symbol": "UBPF",
-      "exponent": "18",
+      "symbol": "BPF",
+      "exponent": "6",
       "coingecko_id": "crowd-control",
       "logo": "/logos/cardchain.svg"
     }

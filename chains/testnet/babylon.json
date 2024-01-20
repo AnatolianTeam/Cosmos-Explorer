@@ -1,18 +1,10 @@
 {
   "chain_name": "Babylon",
   "rpc": [
-    {"provider": "Anatolian Team", "address": "https://rpc-t-babylon.anatolianteam.com"},
-    {"provider": "Lesnik_Utsa", "address": "https://t-babylon.rpc.utsa.tech"}, 
-    {"provider": "Polkachu", "address": "https://babylon-testnet-rpc.polkachu.com"},
-    {"provider": "NodeStake", "address": "https://api-t.babylon.nodestake.top"},
-    {"provider": "Nodeist", "address": "https://rpc-testnet-babylon.nodeist.net"}
+    {"provider": "Anatolian Team", "address": "https://rpc-t-babylon.anatolianteam.com"}
 ],
   "api": [
-      {"provider": "Anatolian Team", "address": "https://api-t-babylon.anatolianteam.com"},
-      {"provider": "Lesnik_Utsa", "address": "https://t-babylon.api.utsa.tech"},
-      {"provider": "Polkachu", "address": "https://babylon-testnet-api.polkachu.com"},
-      {"provider": "NodeStake", "address": "https://rpc-t.babylon.nodestake.top"},
-      {"provider": "Nodeist", "address": "https://api-testnet-babylon.nodeist.net"}
+      {"provider": "Anatolian Team", "address": "https://api-t-babylon.anatolianteam.com"}
   ],
   "snapshot_provider": "",
   "sdk_version": "0.45.6",
@@ -24,7 +16,7 @@
     {
       "base": "ubbn",
       "symbol": "BBN",
-      "exponent": "18",
+      "exponent": "6",
       "coingecko_id": "babylon",
       "logo": "/logos/babylon.svg"
     }

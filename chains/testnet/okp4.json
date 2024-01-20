@@ -1,10 +1,12 @@
 {
   "chain_name": "OKP4",
   "api": [
+      {"provider": "Anatolian Team", "address": "https://api-t-okp4.anatolianteam.com"},
       {"provider": "OKP4", "address": "https://api.testnet.okp4.network"}
       
   ],
   "rpc": [
+      {"provider": "Anatolian Team", "address": "https://rpc-t-okp4.anatolianteam.com"},
       {"provider": "OKP4", "address": "https://api.testnet.okp4.network:443/rpc"}
   ],
   "snapshot_provider": "",
