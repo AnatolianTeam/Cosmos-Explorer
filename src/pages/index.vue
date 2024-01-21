@@ -33,7 +33,7 @@ const chainStore = useBlockchain()
   <div class="">
     <div class="flex md:!flex-row flex-col items-center justify-center mb-6 mt-14 gap-2">
       <div class="w-16 rounded-full">
-        <img width="200" height="200" x="0" y="0" src="../../public/AnatolianTeam.png" />
+        <img width="200" height="200" x="0" y="0" src="../../public/logo.svg" />
       </div>
       <h1 class="text-primary text-3xl md:!text-6xl font-bold" style="color:#DCA958">
         {{ $t('pages.title') }}
