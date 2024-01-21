@@ -43,7 +43,9 @@ const chainStore = useBlockchain()
       <p class="mb-1">
         {{ $t('pages.slogan') }}
       </p>
+<!--      
       <h2 class="mb-6">{{ $t('pages.description') }}</h2>
+-->      
     </div>
     <div
       v-if="dashboard.status !== LoadingStatus.Loaded"
@@ -51,9 +53,9 @@ const chainStore = useBlockchain()
     >
       <progress class="progress progress-info w-80 h-1"></progress>
     </div>
-
-    <div class="text-center font-bold h4 text-primary">Featured Blockchains</div>
-
+<!--
+     <div class="text-center font-bold h4 text-primary">Featured Blockchains</div>
+-->
     <div
       class="grid grid-cols-1 gap-4 mt-6 md:!grid-cols-3 lg:!grid-cols-4 2xl:!grid-cols-5"
     >
