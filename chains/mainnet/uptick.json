@@ -1,0 +1,28 @@
+{
+  "chain_name": "uptick",
+  "api": [
+      {"provider": "Brochain", "address": "https://uptick-rest.brocha.in"},    
+      {"provider": "NodeStake", "address": "https://api.uptick.nodestake.org"},
+      {"provider": "NodeJumper", "address": "https://rest.nodejumper.io/uptick"}
+  ],
+  "rpc": [
+      {"provider": "Brochain", "address": "https://uptick-rpc.brocha.in:443"},    
+      {"provider": "NodeStake", "address": "https://rpc.uptick.nodestake.org"}, 
+      {"provider": "NodeJumper", "address": "https://rpc.nodejumper.io:443/uptick"}
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.45.6",
+  "coin_type": "60",
+  "min_tx_fee": "4000",
+  "addr_prefix": "uptick",
+  "logo": "/logos/uptick.svg",
+  "assets": [
+    {
+      "base": "auptick",
+      "symbol": "UPTICK",
+      "exponent": "18",
+      "coingecko_id": "rebus",
+      "logo": "/logos/uptick.svg"
+    }
+  ]
+}
