@@ -2,12 +2,10 @@
   "chain_name": "stride",
   "api": [
       {"provider": "Polkachu", "address": "https://stride-api.polkachu.com"},    
-      {"provider": "Imperator", "address": "https://lcd-stride.imperator.co"},
       {"provider": "NodeStake", "address": "https://api.stride.nodestake.org"}
   ],
   "rpc": [
       {"provider": "Polkachu", "address": "https://stride-rpc.polkachu.com"},    
-      {"provider": "Imperator", "address": "https://rpc-stride.imperator.co"},
       {"provider": "NodeStake", "address": "https://rpc.stride.nodestake.org"}
   ],
   "snapshot_provider": "",
