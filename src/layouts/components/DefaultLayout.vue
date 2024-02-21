@@ -211,9 +211,6 @@ function selected(route: any, nav: NavLink) {
       </div>
       
       <div class="px-2">
-        <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">
-          {{ $t('module.sponsors') }}
-        </div>
           <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">
             Tools
           </div>
