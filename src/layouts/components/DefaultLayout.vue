@@ -293,6 +293,7 @@ function selected(route: any, nav: NavLink) {
           >
             Telegram
           </div>
+        </a> 
         <a
           href="https://cosmos-testnet.anatolianteam.com/"
           target="_blank"
