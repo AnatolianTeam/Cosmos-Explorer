@@ -1,12 +1,12 @@
 {
   "chain_name": "rebus",
   "api": [
-      {"provider": "Rebus", "address": "https://api.mainnet.rebus.money:1317"},
+      {"provider": "Rebus", "address": "https://cosmos.rebuschain.com/rebusapi"},
       {"provider": "NodeStake", "address": "https://api.rebus.nodestake.top"},
       {"provider": "Allnodes", "address": "https://rebus-rest.publicnode.com"}
   ],
   "rpc": [
-      {"provider": "Rebus", "address": "https://api.mainnet.rebus.money:26657"}, 
+      {"provider": "Rebus", "address": "https://cosmos.rebuschain.com:443"}, 
       {"provider": "NodeStake", "address": "https://rpc.rebus.nodestake.top"},
       {"provider": "Allnodes", "address": "https://rebus-rpc.publicnode.com:443"}
   ],
